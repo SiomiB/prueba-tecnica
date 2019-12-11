@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: #C4C4C4;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.score{
+    position: relative;
+    text-align: center;
+    width: 220px;
+    height: 110px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 45px auto 0px auto;
+}
+#label{
+    font-weight: 100;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+.moves{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    left: 39%;
+    top: 50%;
+}
+#left-move{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#right-move{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+#message{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 50px;
+}
+#line{
+    border: 1px solid #C4C4C4;
+    position: absolute;
+    height: 460px;
+    width: 0;
+    left: 50%;
+    top: 30%;
+}
+.game{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+i{
+    font-size: 60px;
+}
+.user>p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.user>.move:hover{
+    cursor: pointer;
+}
+.user{
+    position: absolute;
+    left: 5%;
+}
+.computer{
+    position: absolute;
+    right: 5%;
+}
+.move{
+    margin: 45px;
+}
